@@ -8,6 +8,19 @@
 1. [코드 분석](https://www.figma.com/design/71JXuRoXDLE8r9Dig1H6Qb/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%AC%ED%98%84-%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&t=AxAIokB9HLShasKn-1, "피그마로 바로가기")
 2. [아트보다](https://gonghanna.github.io/Personal-Project/, "아트보다")
 
+## 240619 ##
+- react에 swiper 적용
+- swiper autoplay 설정
+- 이미지 소스 변경
+- 빌드 후 배포
+- 내일 해야 할 일 : 빌드가 되지 않는다... 빌드 후에 빈화면이 나온다... 리액트라우터 경로 수정 및 구조 수정,,,,
+![6](https://github.com/GongHanna/artboda/assets/160007300/afedcdec-edd9-4ea1-992c-a5072a24fe41)
+![7](https://github.com/GongHanna/artboda/assets/160007300/e80edc04-dae7-412d-bb34-7c65201fcac8)
+
+----
+![8](https://github.com/GongHanna/artboda/assets/160007300/0484c86a-edf8-4daf-ac1f-405183b6a54d)
+![9](https://github.com/GongHanna/artboda/assets/160007300/8861d817-7f88-43f6-9626-8b55bd44a313)
+
 ## 240618 ##
 - a태그 Link 태그로 변경
 - 예약 컴포넌트 작업

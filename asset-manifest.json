@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/artboda/static/css/main.9f5f7b4c.css",
+    "main.js": "/artboda/static/js/main.5820bd48.js",
+    "static/media/AppleSDGothicNeoEB.woff": "/artboda/static/media/AppleSDGothicNeoEB.364b00ea09cf2c540ba9.woff",
+    "static/media/AppleSDGothicNeoR.woff": "/artboda/static/media/AppleSDGothicNeoR.3fa7eed2d16d2eb546c9.woff",
+    "static/media/home-slide03.png": "/artboda/static/media/home-slide03.41060f988c88d47ca5a8.png",
+    "static/media/home-slide02.png": "/artboda/static/media/home-slide02.bc9ff5edbc9913bcaad1.png",
+    "static/media/home-slide04.png": "/artboda/static/media/home-slide04.d0efcdfc67f1972f93b0.png",
+    "static/media/home-slide01.png": "/artboda/static/media/home-slide01.0cc9e201c9deaaf04c58.png",
+    "static/media/exhibition-intro.png": "/artboda/static/media/exhibition-intro.18e35af1533c24ccb49d.png",
+    "static/media/ticket2.png": "/artboda/static/media/ticket2.3c0c59dc642860ab4898.png",
+    "static/media/reservationCheck.png": "/artboda/static/media/reservationCheck.c86e722f3facab6af699.png",
+    "static/media/home-img1.png": "/artboda/static/media/home-img1.59aa27ffb556ed7ed57f.png",
+    "static/media/profile.png": "/artboda/static/media/profile.3f5cf08378b1e0c23667.png",
+    "index.html": "/artboda/index.html",
+    "main.9f5f7b4c.css.map": "/artboda/static/css/main.9f5f7b4c.css.map",
+    "main.5820bd48.js.map": "/artboda/static/js/main.5820bd48.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f5f7b4c.css",
+    "static/js/main.5820bd48.js"
+  ]
+}

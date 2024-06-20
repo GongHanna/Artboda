@@ -6,7 +6,14 @@
 
 👇🏻작업물 보러가기👇🏻
 1. [코드 분석](https://www.figma.com/design/71JXuRoXDLE8r9Dig1H6Qb/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%AC%ED%98%84-%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&t=AxAIokB9HLShasKn-1, "피그마로 바로가기")
-2. [아트보다](https://gonghanna.github.io/Personal-Project/, "아트보다")
+2. [리액트 아트보다](https://gonghanna.github.io/artboda/)
+
+## 240620 ##
+- gh-pages에 대한 공부 및 방법 숙지
+- 전체 페이지 빌드를 하기보다는 첫화면 컴포넌트만 빌드해보기 (빌드 후 pages에서 빈화면 오류 확인하기 위함)
+- 빈화면 오류가 발생하지 않으면 차례대로 컴포넌트 연결 후 확인해보기
+- 모두 확인 시 빈화면 오류 없이 빌드 완료
+![10](https://github.com/GongHanna/artboda/assets/160007300/5554aecd-26f6-44b3-806e-713bba48d25b)
 
 ## 240619 ##
 - react에 swiper 적용

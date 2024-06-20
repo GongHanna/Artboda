@@ -6,7 +6,7 @@
 
 👇🏻작업물 보러가기👇🏻
 1. [코드 분석](https://www.figma.com/design/71JXuRoXDLE8r9Dig1H6Qb/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%AC%ED%98%84-%EA%B0%9C%EC%9D%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=0-1&t=AxAIokB9HLShasKn-1, "피그마로 바로가기")
-2. [리액트 아트보다](https://gonghanna.github.io/artboda/)
+2. [구현 사이트 보러가기](https://gonghanna.github.io/artboda/)
 
 ## 240620 ##
 - gh-pages에 대한 공부 및 방법 숙지

@@ -15,6 +15,11 @@
 - 모두 확인 시 빈화면 오류 없이 빌드 완료
 ![10](https://github.com/GongHanna/artboda/assets/160007300/5554aecd-26f6-44b3-806e-713bba48d25b)
 
+----
+눈물없이 볼 수 없는 배포 기록들...
+
+![깃로그](https://github.com/GongHanna/artboda/assets/160007300/53deae71-9a08-4763-a94c-2c37d6d39ac0)
+
 ## 240619 ##
 - react에 swiper 적용
 - swiper autoplay 설정

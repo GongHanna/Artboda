@@ -1,0 +1,28 @@
+.ticketBox {
+  padding-bottom: 40px;
+}
+.ticketBox img {
+  width: 100%;
+}
+.ticketBox .flexBox {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.ticketBox .flexBox .textBox {
+  text-align: left;
+}
+.ticketBox .flexBox .textBox .ticketTitle {
+  font-family: var(--font-EB);
+  font-size: 23px;
+}
+.ticketBox .flexBox .textBox .ticketDate {
+  font-size: 14px;
+}
+.ticketBox .flexBox .reservationBtn {
+  width: 169px; height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  background-color: #222;
+  color: #fff;
+}

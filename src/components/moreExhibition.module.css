@@ -1,0 +1,39 @@
+.more {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+.more .title a {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.more .title a::before {
+  content: "";
+  background: url(../assets/images/back.png) no-repeat 50% / contain;
+  width: 30px; height: 30px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+}
+
+.textBox {
+  width: 100%;
+  margin: 0 auto;
+  padding: 22px 16px 100px;
+  text-align: left;
+  font-size: 1rem;
+}
+.textBox .textTitle {
+  font-family: var(--font-EB);
+  margin: 20px 0;
+}
+.textBox .desc {
+  word-break:break-all;
+  word-wrap: break-word;
+  margin-bottom: 15px;
+  line-height: 1.7;
+}

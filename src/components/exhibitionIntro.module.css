@@ -1,0 +1,99 @@
+.introSection {
+  padding: 70px 0 30px;
+}
+.introSection .intro .introTitle {
+  padding: 20px 0;
+}
+.introSection .intro .introTitle a {
+  width: 30px; height: 30px;
+  display: block;
+  text-indent: -9999px;
+  background: url(../assets/images/back.png) no-repeat 0% 50% / contain;
+}
+
+.introSection .introContents .introWrapper .introList .reservationBtn {
+  background-color: #222;
+  color: #fff;
+  display: block;
+  width: 90%; height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  font-size: 14px;
+  margin-bottom: 23px;
+}
+.introSection .introContents .introWrapper .introList img {
+  width: 100%;
+}
+.introSection .introContents .introWrapper .introList .introFlexBox {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+.introSection .introContents .introWrapper .introList .introFlexBox .introTitle {
+  font-size: 23px;
+  font-family: var(--font-EB);
+}
+.introSection .introContents .introWrapper .introList .introFlexBox .introState {
+  font-size: 12px;
+  border: 1px solid #222;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: max-content;
+}
+.introSection .introContents .introWrapper .introList .introFlexBox .introTextBox {
+  font-size: 14px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.introSection .introContents .introWrapper .introList .introFlexBox .shareBtn {
+  display: block;
+  text-indent: -9999px;
+  background: url(../assets/images/share-btn.png) no-repeat 50% / contain;
+  width: 40px; height: 40px;
+}
+.introSection .introContents .introWrapper .introList .introFlexBox .introTextBox .introDate span {
+  padding-right: 58px;
+}
+.introSection .introContents .introWrapper .introList .introFlexBox .introTextBox .introLocation span {
+  padding-right: 82px;
+}
+.introSection .introContents .introWrapper .introList .introFlexBox .introTextBox .introClosedDate span {
+  padding-right: 70px;
+}
+.introSection .introContents .introWrapper .introList .introFlexBox .introTextBox .introPrice span {
+  padding-right: 58px;
+}
+
+.introSection .introContents .introWrapper .exhibitionList {
+  border-top: 1px solid #D9D9D9;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 15px 0;
+}
+.introSection .introContents .introWrapper .exhibitionList .exhibitionTitle {
+  font-family: var(--font-EB);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.introSection .introContents .introWrapper .exhibitionList .exhibitionSubTitle {
+  font-family: var(--font-EB);
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+.introSection .introContents .introWrapper .exhibitionList .exhibitionDesc {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.introSection .introContents .introWrapper .exhibitionList .moreBtn {
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #222;
+  display: block;
+  border-radius: 30px;
+  width: max-content;
+  padding: 7px 12px;
+  margin: 30px auto 0;
+}

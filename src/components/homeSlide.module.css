@@ -1,0 +1,18 @@
+:root {
+  --swiper-theme-color: #000;
+  --swiper-pagination-color: #000;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bottom: 0;
+}
+
+.slideBox {
+  width: 100%; 
+}
+.slideBox img {
+  width: 100%;
+}
+ .emptyBox {
+  margin-top: 30px;
+ }
+

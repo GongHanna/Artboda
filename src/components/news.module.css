@@ -1,0 +1,29 @@
+.news {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+.news .title a {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.news .title a::before {
+  content: "";
+  background: url(../assets/images/back.png) no-repeat 50% / contain;
+  width: 30px; height: 30px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+}
+
+.newsWrapper {
+  border-bottom: 1px solid #D9D9D9;
+  padding: 100px 0;
+}
+.newsWrapper .desc {
+  font-size: 14px;
+}

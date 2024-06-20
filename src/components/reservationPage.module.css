@@ -1,0 +1,257 @@
+section {
+  width: 100%;
+  padding-bottom: 20px;
+}
+section .ticket {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+section .ticket .title a {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+section .ticket .title a::before {
+  content: "";
+  background: url(../assets/images/back.png) no-repeat 50% / contain;
+  width: 30px; height: 30px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+}
+
+section .ticketList {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  justify-content: center;
+  font-size: 16px;
+  width: 100%; height: 40px;
+  line-height: 40px;
+  margin-top: 23px;
+}
+section .ticketList .ticketBtn {
+  border: 1px solid #222;
+  background-color: #fff;
+}
+section .ticketList .ticketBtn:nth-child(2) {
+  background-color: #222;
+  color: #fff;
+}
+
+.ticketIntro {
+  width: 100%;
+  text-align: left;
+}
+.ticketIntro img {
+  width: 100%;
+  margin: 24px 0 18px;
+}
+.ticketIntro .ticketTitle {
+  font-size: 20px;
+  font-family: var(--font-EB);
+}
+.ticketIntro .textBox {
+  width: max-content;
+  font-size: 14px;
+  margin: 18px auto 33px;
+  padding-left: 10px;
+}
+.ticketIntro .textBox .date span {
+  margin-right: 83px;
+}
+.ticketIntro .textBox .location span {
+  margin-right: 106px;
+}
+.ticketIntro .textBox .time span {
+  margin-right: 83px;
+}
+.ticketIntro .textBox .price span {
+  margin-right: 83px;
+}
+
+.priceIntro {
+  width: 100%;
+  text-align: left;
+}
+.priceIntro .priceTitle {
+  font-size: 20px;
+  font-family: var(--font-EB);
+  background: url(../assets/images/price-icon.png) no-repeat 0% 15%;
+  text-indent: 25px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.priceIntro .priceDesc {
+  list-style: disc;
+  font-size: 14px;
+  margin: 11px 0 0 20px;
+}
+
+.calendarTitle {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  font-family: var(--font-EB);
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D9D9D9;
+  margin-top: 43px;
+}
+.calendarWrapper {
+  padding-top: 17px;
+  width: max-content;
+  margin: 17px auto 50px;
+  position: relative;
+}
+.calendarWrapper .tableHead .prevBtn {
+  position: absolute;
+  background: url(../assets//images/prevBtn.png) no-repeat 50% / contain;
+  text-indent: -9999px;
+  width: 32px; height: 32px;
+  top: 30px; left: 10px;
+}
+.calendarWrapper .tableHead .nextBtn {
+  position: absolute;
+  background: url(../assets//images/nextBtn.png) no-repeat 50% / contain;
+  text-indent: -9999px;
+  width: 32px; height: 32px;
+  top: 30px; right: 10px;
+}
+.calendarWrapper .tableHead .dateTitle {
+  font-family: var(--font-EB);
+  font-size: 28px;
+  position: absolute;
+  top: 30px; left: 50%;
+  transform: translateX(-50%);
+}
+.calendarWrapper table {
+  width: 100%;
+  padding: 20px;
+  border-collapse: separate;
+  border-spacing: 10px 6px;
+  cursor: pointer;
+  box-shadow:
+  0.3px 1.1px 4.4px rgba(0, 0, 0, 0.053),
+  1.1px 3.6px 14.7px rgba(0, 0, 0, 0.077),
+  5px 16px 66px rgba(0, 0, 0, 0.13);
+}
+.calendarWrapper table tr .calendarDate {
+  font-size: 16px;
+  color: #696969;
+  font-weight: 400;
+  padding-top: 70px;
+}
+.calendarWrapper table tr td {
+  font-size: 24px;
+  border: 1px solid #D9D9D9;
+  width: 45px; height: 50px;
+}
+.calendarWrapper table tr .empty {
+  border: none;
+}
+.calendarWrapper table tr .closeNumber {
+  background-color: #F2F2F2;
+  color: #8A8A8A;
+}
+.calendarWrapper table tr .redNumer {
+  color: #FF0000;
+}
+.calendarWrapper table tr .clickNumer {
+  background-color: #222;
+  color: #fff;
+}
+
+.personnelWrapper {
+  width: 100%;
+  text-align: left;
+}
+.personnelWrapper .personnelTitle {
+  font-size: 20px;
+  font-family: var(--font-EB);  
+  background: url(../assets/images/up_small.png) no-repeat 95% 40%;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.personnelWrapper .personnelDesc {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #8A8A8A;
+  background: url(../assets/images/price-icon.png) no-repeat 0 0;
+  padding-left: 30px;
+}
+
+.personnelWrapper form .personBox {
+  font-size: 14px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.personnelWrapper form .personBox .formBox {
+  display: flex;
+}
+.personnelWrapper form .personBox .formBox .minusBtn {
+  background-color: #fff;
+  border: 1px solid #8A8A8A;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.personnelWrapper form .personBox .formBox .numValue {
+  background-color: #fff;
+  border: 1px solid #8A8A8A;
+  border-left: none;
+  border-right: none;
+  width: 62.76px; height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  text-align: center;
+}
+.personnelWrapper form .personBox .formBox .plusBtn {
+  background-color: #fff;
+  border: 1px solid #8A8A8A;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.personnelWrapper form .textBox {
+  border: 1px solid #D9D9D9;
+  border-left: none;
+  border-right: none;
+  padding: 19px 0 21px;
+}
+.personnelWrapper form .textBox .person {
+  margin-bottom: 10px;
+  font-size: 14px;
+  padding-left: 40px;
+}
+.personnelWrapper form .textBox .person:last-child {
+  margin-bottom: 0;
+}
+
+.personnelWrapper form label {
+  font-size: 14px;
+  display: block;
+  margin: 10px 0 40px;
+}
+.personnelWrapper form label .noticeDesc {
+  padding-left: 10px;
+}
+.personnelWrapper form label #check {
+  border: 1px solid #ABA8A8;
+}
+
+.personnelWrapper .reservationBtn {
+  background-color: #222;
+  color: #fff;
+  width: 100%; height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}

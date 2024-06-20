@@ -1,0 +1,44 @@
+nav {
+  max-width: 500px;
+  min-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+  background-color: #F5F5F5;
+  position: fixed;
+  bottom: 0; left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+}
+nav .globalMenu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 83px;
+}
+nav .globalMenu li {
+  width: 20%;
+  background-color: antiquewhite;
+  padding: 5px 0;
+}
+nav .globalMenu li a {
+  display: block;
+  height: 49px;
+  padding-top: 30px;
+}
+nav .globalMenu .home {
+  background: url(../assets/images/home.png) no-repeat 50% 20%;
+}
+nav .globalMenu .reservation {
+  background: url(../assets/images/reservation.png) no-repeat 50% 20%;
+}
+nav .globalMenu .exhibition {
+  background: url(../assets/images/exhibition.png) no-repeat 50% 20%;
+}
+nav .globalMenu .notice {
+  background: url(../assets/images/notice.png) no-repeat 50% 20%;
+}
+nav .globalMenu .user {
+  background: url(../assets/images/user.png) no-repeat 50% 20%;
+}

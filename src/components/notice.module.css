@@ -1,0 +1,138 @@
+section .notice {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+section .notice .title a {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+section .notice .title a::before {
+  content: "";
+  background: url(../assets/images/back.png) no-repeat 50% / contain;
+  width: 30px; height: 30px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+}
+
+.noticeWrapper {
+  padding: 0 16px;
+  width: 100%;
+  text-align: left;
+}
+.noticeWrapper .noticeTitle {
+  margin: 37px 0 0;
+  font-size: 20px;
+  font-family: var(--font-EB);
+}
+
+.noticeWrapper .noticeList {
+  font-size: 14px;
+}
+.noticeWrapper .noticeList li {
+  border-bottom: 1px solid #D9D9D9;
+  padding: 30px 0;
+}
+.noticeWrapper .noticeList li:last-child {
+  border-bottom: none;
+}
+.noticeWrapper .noticeList li .listTitle {
+  font-family: var(--font-EB);
+  margin-bottom: 15px;
+}
+.noticeWrapper .noticeList li .listDesc {
+  margin-bottom: 8px;
+}
+.noticeWrapper .noticeList li .listDesc .underline {
+  text-decoration: underline;
+}
+.noticeWrapper .noticeList li .listDesc .color {
+  color: #FF0000;
+}
+
+.mapWrapper {
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+}
+.mapWrapper .mapTitle {
+  width: 90%;
+  font-size: 20px;
+  margin: 20px auto;
+  padding-top: 40px;
+  font-family: var(--font-EB);
+}
+.mapWrapper .kakaoMap {
+  margin: 0 auto;
+  width: 90%; 
+  aspect-ratio: 2 / 1;
+}
+.mapWrapper .kakaoMap .map {
+  width: 100%; height: 100%;
+}
+.mapWrapper .mapList {
+  font-size: 14px;
+  width: 90%;
+  margin: 20px auto;
+  padding-bottom: 40px;
+}
+.mapWrapper .mapList li strong {
+  font-family: var(--font-EB);
+}
+.mapWrapper .mapList li .mapDesc {
+  margin: 10px 0;
+}
+
+.formWrapper {
+  padding: 0 16px;
+  width: 100%;
+  font-size: 14px;
+  text-align: left;
+}
+.formWrapper .formTitle {
+  font-size: 20px;
+  font-family: var(--font-EB);
+  margin: 23px 0;
+}
+.formWrapper label .labelTitle {
+  font-family: var(--font-EB);
+  margin: 11px 0;
+}
+.formWrapper label input {
+  border: 1px solid #D9D9D9;
+  outline: none;
+  width: 100%; height: 50px;
+}
+.formWrapper label input::placeholder {
+  font-family: var(--font-R);
+  padding-top: 10px;
+  padding-left: 2px;
+  font-size: 14px;
+  color: #8A8A8A;
+}
+.formWrapper label textarea {
+  border: 1px solid #D9D9D9;
+  outline: none;
+  width: 100%; height: 110px;
+}
+.formWrapper label textarea::placeholder {
+  font-family: var(--font-R);
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 14px;
+  color: #8A8A8A;
+}
+.formWrapper .noticeBtn {
+  width: 100%; height: 50px;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 28px;
+}
+

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import GlobalMenu from "./GlobalMenu";
 import styles from "./Login.module.css";
 

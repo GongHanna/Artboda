@@ -1,0 +1,83 @@
+.cancleComplete {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+.cancleComplete .title a {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.cancleComplete .title a::before {
+  content: "";
+  background: url(../assets/images/back.png) no-repeat 50% / contain;
+  width: 30px; height: 30px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+}
+
+.completeTextBox {
+  padding: 50px 0 25px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.completeTextBox .completeTitle {
+  font-size: 22px;
+  font-family: var(--font-EB);
+  margin-bottom: 20px;
+}
+.completeTextBox .completeDesc:first-of-type {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.completeTextBox .completeDesc:last-of-type {
+  font-size: 14px;
+}
+
+.reservationCheck {
+  font-size: 14px;
+  padding: 14px 20px 44px;
+}
+.reservationCheck .reservationNum {
+  text-decoration: underline;
+  text-align: right;
+}
+.reservationCheck .flexBox {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 20px;
+}
+.reservationCheck .flexBox img {
+  width: 100%;
+}
+.reservationCheck .flexBox .textBox {
+  text-align: left;
+  padding-left: 20px;
+  align-self: center;
+}
+.reservationCheck .flexBox .textBox .completeTitle {
+  font-size: 16px;
+  font-family: var(--font-EB);
+  margin-bottom: 18px;
+}
+.reservationCheck .flexBox .textBox .completeDate {
+  margin-bottom: 10px;
+}
+.reservationCheck .flexBox .textBox .completePersonnel {
+  margin-bottom: 10px;
+}
+
+.reservationBtn {
+  margin-top: 44px;
+  width: 100%; height: 50px;
+  line-height: 50px;
+  display: block;
+  background-color: #222;
+  color: #fff;
+}
+.reservationBtn p {
+  font-size: 14px;
+}

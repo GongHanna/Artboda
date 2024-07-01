@@ -1,0 +1,84 @@
+.login {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+.login .title {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.loginForm {
+  width: 100%;
+  margin: 35px 0 23px;
+  padding-bottom: 35px;
+  font-size: 14px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.loginForm input {
+  display: block;
+  width: 100%; height: 50px;
+  border: 1px solid #8A8A8A;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+.loginForm input::placeholder {
+  padding-left: 5px;
+}
+.loginForm .flexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loginForm .flexBox label input {
+  width: 15px; height: 15px;
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+.loginForm .flexBox .find {
+  color: #8A8A8A;
+}
+.loginForm .loginBtn {
+  background-color: #222;
+  color: #fff;
+  width: 100%; height: 50px;
+  line-height: 50px;
+  border: none;
+  margin: 28px 0 13px;
+}
+.loginForm .joinBtn {
+  color: #8A8A8A;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.snsLogin {
+  color: #8A8A8A;
+  font-size: 14px;
+}
+.snsLogin .title {
+  margin-bottom: 17px;
+}
+.snsLogin .snsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.snsLogin .snsList li {
+  text-indent: -9999px;
+  width: 35px; height: 35px;
+  background: no-repeat 50% 50% / contain;
+}
+.snsLogin .snsList .naver {
+  background-image: url(../assets/images/naver.png);
+}
+.snsLogin .snsList .kakao {
+  background-image: url(../assets/images/kakao.png);
+}
+.snsLogin .snsList .apple {
+  background-image: url(../assets/images/apple.png);
+}

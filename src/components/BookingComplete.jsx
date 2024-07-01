@@ -42,7 +42,7 @@ function BookingComplete() {
             </p>
           </div>
           <p className={styles.detail}>
-            <Link>상세보기</Link>
+            <Link to="/booking/completed/details">상세보기</Link>
           </p>
         </div>
         <div className={styles.gridBox}>

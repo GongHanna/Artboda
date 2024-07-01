@@ -112,7 +112,9 @@ function ChangeInfomation() {
         </div>
       </form>
 
-      <p className={styles.withdrawal}>회원탈퇴</p>
+      <p className={styles.withdrawal}>
+        <Link to="/user/cancle/account">회원탈퇴</Link>
+      </p>
       <GlobalMenu />
     </section>
   );

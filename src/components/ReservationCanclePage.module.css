@@ -1,0 +1,135 @@
+.details {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+.details .title a {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.details .title a::before {
+  content: "";
+  background: url(../assets/images/back.png) no-repeat 50% / contain;
+  width: 30px; height: 30px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+}
+
+.canclePageIntro {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 43px;
+}
+.canclePageIntro img {
+  width: 100%;
+  margin: 15px 0 18px;
+}
+.canclePageIntro .canclePageTitle {
+  font-size: 20px;
+  font-family: var(--font-EB);
+  margin-bottom: 19px;
+}
+.canclePageIntro .textBox .gridBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 12px 15px;
+}
+.canclePageIntro .textBox .gridBox strong {
+  font-family: var(--font-EB);
+}
+
+.cancleList {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.cancleList .title {
+  font-size: 20px;
+  font-family: var(--font-EB);
+  padding-bottom: 15px;
+  border-bottom: 2px solid #222;
+}
+.cancleList .textBox {
+  margin: 20px 0;
+}
+.cancleList .textBox .gridBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.cancleList .textBox .gridBox strong {
+  font-family: var(--font-EB);
+}
+.cancleList .textBox .gridBox .color {
+  color: #FF0000;
+}
+.cancleList .textBox .bg {
+  background-color: #EEEEEE;
+  border: none;
+}
+.cancleList .textBox .border {
+  border: none;
+}
+
+/* 유의사항 */
+.cancleNotice {
+  text-align: left;
+  word-break: keep-all;
+  white-space:normal;
+}
+.cancleNotice .title {
+  font-size: 20px;
+  font-family: var(--font-EB);
+  margin-bottom: 12px;
+}
+.cancleNotice .noticeList {
+  font-size: 12px;
+  padding: 20px;
+  margin-bottom: 11px;
+  border: 1px solid #8A8A8A;
+}
+.cancleNotice .noticeList .noticeTitle {
+  font-size: 16px;
+  font-family: var(--font-EB);
+  margin-bottom: 9px;
+}
+.cancleNotice .noticeList .noticeTitle .subTitle {
+  text-align: center;
+}
+.cancleNotice .noticeList .noticeDesc {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.noticeForm .noticelabel {
+  font-size: 14px;
+}
+.noticeForm .noticelabel .noticeinput {
+  border: 1px solid #8A8A8A;
+  margin-right: 5px;
+}
+
+.noticeForm .btnBox {
+  margin: 29px 0 55px;
+  display: flex;
+  gap: 15px;
+}
+.noticeForm button {
+  width: 50%; height: 50px;
+  line-height: 50px;
+  border: 1px solid #222;
+  background-color: #fff;
+}
+.noticeForm button a {
+  display: block;
+}
+.noticeForm .submit {
+  background-color: #222;
+  color: #fff;
+}

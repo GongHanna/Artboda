@@ -48,7 +48,7 @@ function ReservationComplete() {
           </div>
         </div>
 
-        <Link className={styles.reservationBtn}>
+        <Link to="/bookingList" className={styles.reservationBtn}>
           <p>예매내역확인</p>
         </Link>
       </div>

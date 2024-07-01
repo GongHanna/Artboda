@@ -1,0 +1,131 @@
+.info {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+.info .title a {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.info .title a::before {
+  content: "";
+  background: url(../assets/images/back.png) no-repeat 50% / contain;
+  width: 30px; height: 30px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+}
+
+.infoBox {
+  text-align: left;
+  font-size: 14px;
+}
+.infoBox .title {
+  font-family: var(--font-EB);
+  font-size: 20px;
+  border-bottom: 1px solid #D9D9D9;
+  padding: 23px 0 12px;
+}
+.infoBox .id {
+  margin: 20px 0 23px;
+}
+.infoBox .id span {
+  margin-left: 67px;
+}
+.infoBox .passwordBox .password {
+  margin-bottom: 6px;
+}
+.infoBox .passwordBox input {
+  border: 1px solid #8A8A8A;
+  width: 100%; height: 50px;
+  margin-bottom: 23px;
+}
+.infoBox .nation, .infoBox .name, .infoBox .birth  {
+  margin-bottom: 24px;
+}
+.infoBox .phone {
+  margin-bottom: 33px;
+}
+.infoBox .nation .nationSpacing {
+  margin-left: 50px;
+}
+.infoBox .name .nameSpacing, .infoBox .birth .birthSpacing {
+  margin-left: 64px;
+}
+.infoBox .phone .phoneSpacing {
+  margin-left: 44px;
+}
+
+.infoBox .phoneBox {
+  margin: 0 auto;
+}
+.infoBox .phoneBox .desc {
+  margin-bottom: 6px;
+}
+.infoBox .phoneBox .numbers, .infoBox .phoneBox .number {
+  border: 1px solid #8A8A8A;
+  height: 50px; width: calc(100% / 3 - 8px);
+}
+.infoBox .phoneBox .hyphen {
+  margin: 0 2px;
+  color: #8A8A8A;
+}
+.infoBox .phoneBox .send {
+  width: 100%; height: 50px;
+  background-color: #E8E8E8;
+  color: #8A8A8A;
+  border: none;
+  margin: 12px 0 13px;
+}
+.infoBox .phoneBox .confirmNum {
+  height: 50px;
+  border: 1px solid #8A8A8A;
+  width: 69%;
+}
+.infoBox .phoneBox .confirmBtn {
+  height: 50px;
+  border: none;
+  background-color: #E8E8E8;
+  color: #8A8A8A;
+  width: 30%;
+}
+
+.infoBox .email {
+  margin-top: 24px;
+}
+.infoBox .email .emailSpacing {
+  margin-left: 64px;
+}
+.infoBox .emailBox .desc {
+  margin: 23px 0 14px;
+}
+.infoBox .emailBox .email, .infoBox .emailBox .emails {
+  height: 50px;
+  margin: 0;
+  border: 1px solid #8A8A8A;
+  width: calc(100% / 3 - 13px);
+}
+.infoBox .emailBox .at {
+  color: #8A8A8A;
+  margin: 0 2px;
+}
+.infoBox .emailBox .emails {
+  margin-left: 20px;
+}
+.infoBox .emailBox .check {
+  margin: 12px 0 19px;
+  width: 100%; height: 50px;
+  color: #8A8A8A;
+  background-color: #E8E8E8;
+  border: none;
+}
+.withdrawal {
+  font-size: 14px;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

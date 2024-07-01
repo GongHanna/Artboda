@@ -1,0 +1,138 @@
+.booking {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+.booking .title a {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.booking .title a::before {
+  content: "";
+  background: url(../assets/images/back.png) no-repeat 50% / contain;
+  width: 30px; height: 30px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+}
+
+/* 전시회 소개 */
+.bookingIntro {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 43px;
+}
+.bookingIntro img {
+  margin: 13px 0 19px;
+  width: 100%;
+}
+.bookingIntro .bookingTitle {
+  font-size: 20px;
+  font-family: var(--font-EB);
+  margin-bottom: 19px;
+}
+.bookingIntro .textBox .gridBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 12px 15px;
+}
+.bookingIntro .textBox .gridBox strong {
+  font-family: var(--font-EB);
+}
+
+/* 예매 정보 */
+.reservationInfo {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.reservationInfo .title {
+  font-size: 20px;
+  font-family: var(--font-EB);
+  padding-bottom: 15px;
+  border-bottom: 2px solid #222;
+}
+.reservationInfo .textBox {
+  margin: 20px 0;
+}
+.reservationInfo .textBox .gridBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px;
+  border-bottom: 1px solid #D9D9D9;
+}
+.reservationInfo .textBox .gridBox strong {
+  font-family: var(--font-EB);
+}
+.reservationInfo .textBox .gridBox .color {
+  color: #FF0000;
+}
+.reservationInfo .textBox .bg {
+  background-color: #EEEEEE;
+  border: none;
+}
+.reservationInfo .textBox .border {
+  border: none;
+}
+
+.reservationInfo .cancleBtn {
+  border: 1px solid #222;
+  border-radius: 10px;
+  width: max-content;
+  margin-left: 10px;
+  padding: 10px 20px;
+}
+
+/* 유의사항 */
+.reservationNotice {
+  text-align: left;
+}
+.reservationNotice .title {
+  font-size: 20px;
+  font-family: var(--font-EB);
+  margin-bottom: 12px;
+}
+.reservationNotice .noticeList {
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+.reservationNotice .noticeList .noticeItem {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.reservationNotice .noticeList .noticeItem::before {
+  content: "· ";
+}
+.reservationNotice .noticeList .noticeItem .pointColor {
+  color: #FF0000;
+}
+
+.btnBox {
+  font-size: 14px;
+  display: flex;
+  gap: 15px;
+}
+.btnBox .bookingBtn {
+  background-color: #222;
+  color: #fff;
+  width: 50%; height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.btnBox .bookingBtn a {
+  display: block;
+}
+.btnBox .qrBtn {
+  width: 50%; height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #222;
+  background: url(../assets/images/back_right.png) no-repeat 67% 50%;
+}
+.btnBox .qrBtn a {
+  display: block;
+}

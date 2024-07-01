@@ -103,7 +103,6 @@ section .ticketList .ticketBtn:nth-child(2) {
   display: block;
   background-color: #222;
   color: #fff;
-  cursor: auto;
 }
 .reservationBtn p {
   font-size: 14px;

@@ -3,6 +3,7 @@ import profile from "../assets/images/profile.png";
 import off from "../assets/images/settingBtn-off.png";
 import on from "../assets/images/settingBtn-on.png";
 import GlobalMenu from "./GlobalMenu";
+import { Link } from "react-router-dom";
 
 function User() {
   return (
@@ -22,8 +23,12 @@ function User() {
       <ul className={styles.userWrapper}>
         <li className={styles.myInfo}>
           <h3 className={styles.myInfoTitle}>내정보 관리</h3>
-          <p className={styles.myInfoDesc}>예매 내역</p>
-          <p className={styles.myInfoDesc}>개인정보 변경/탈퇴</p>
+          <p className={styles.myInfoDesc}>
+            <Link to="/bookingList">예매 내역</Link>
+          </p>
+          <p className={styles.myInfoDesc}>
+            <Link to="/user/change">개인정보 변경/탈퇴</Link>
+          </p>
         </li>
         <li className={styles.setting}>
           <h3 className={styles.settingTitle}>설정</h3>

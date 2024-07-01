@@ -1,0 +1,71 @@
+.qr {
+  width: 100%;
+  text-align: left;
+  border-bottom: 2px solid #222;
+  padding: 20px 10px;
+}
+.qr .title a {
+  font-family: var(--font-EB);
+  font-size: 23px;
+  position: relative;
+  padding-left: 40px;
+  cursor: pointer;
+}
+.qr .title a::before {
+  content: "";
+  background: url(../assets/images/back.png) no-repeat 50% / contain;
+  width: 30px; height: 30px;
+  position: absolute;
+  top: 50%; left: 0;
+  transform: translateY(-50%);
+}
+
+.qrWrapper {
+  font-size: 16px;
+}
+.qrWrapper .qrtitle {
+  font-family: var(--font-EB);
+  margin: 26px 0 22px;
+}
+.qrWrapper .qrBox {
+  position: relative;
+  margin-bottom: 35px;
+}
+.qrWrapper .qrBox img {
+  width: 80%;
+}
+.qrWrapper .qrBox .desc {
+  font-family: var(--font-EB);
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gridBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 42px 43px;
+}
+.gridBox img {
+  width: 80%;
+}
+.gridBox .textBox {
+  font-size: 14px;
+  text-align: left;
+}
+.gridBox .textBox .number {
+  font-family: var(--font-EB);
+  margin-bottom: 24px;
+}
+.gridBox .textBox .title {
+  font-family: var(--font-EB);
+  font-size: 16px;
+  margin-bottom: 19px;
+}
+.gridBox .textBox .date,
+.gridBox .textBox .personnel {
+  margin-bottom: 9px;
+}

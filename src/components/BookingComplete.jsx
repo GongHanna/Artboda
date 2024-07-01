@@ -25,7 +25,7 @@ function BookingComplete() {
       </ul>
 
       <p className={styles.textFlexBox}>
-        총 2건
+        총 1건
         <span className={styles.bookingDesc}>최근 예매순</span>
       </p>
 

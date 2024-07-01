@@ -24,6 +24,11 @@ function BookingCancellation() {
         </li>
       </ul>
 
+      <p className={styles.textFlexBox}>
+        총 1건
+        <span className={styles.bookingDesc}>최근 예매순</span>
+      </p>
+
       {/* 예매내역 */}
       <div className={styles.bookingBox}>
         <div className={styles.flexBox}>

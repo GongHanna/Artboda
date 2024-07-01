@@ -48,7 +48,7 @@ function BookingComplete() {
         <div className={styles.gridBox}>
           <img src={img02} alt="booking01" />
           <div className={styles.exhibitionBox}>
-            <h2 className={styles.title}>고진감래</h2>
+            <h2 className={styles.title}>달의 정원</h2>
             <p className={styles.count}>1매 (성인1)</p>
             <p className={styles.location}>아트보다 갤러리</p>
             <p className={styles.state}>관람완료</p>

@@ -1,21 +1,17 @@
-section {
-  width: 100%;
-  padding-bottom: 20px;
-}
-section .ticket {
+.ticket {
   width: 100%;
   text-align: left;
   border-bottom: 2px solid #222;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
-section .ticket .title a {
+.ticket .title a {
   font-family: var(--font-EB);
   font-size: 23px;
   position: relative;
   padding-left: 40px;
   cursor: pointer;
 }
-section .ticket .title a::before {
+.ticket .title a::before {
   content: "";
   background: url(../assets/images/back.png) no-repeat 50% / contain;
   width: 30px; height: 30px;
@@ -24,7 +20,7 @@ section .ticket .title a::before {
   transform: translateY(-50%);
 }
 
-section .ticketList {
+.ticketList {
   display: grid;
   grid-template-columns: 1fr 1fr 1.5fr;
   justify-content: center;
@@ -33,15 +29,15 @@ section .ticketList {
   line-height: 40px;
   margin-top: 23px;
 }
-section .ticketList .ticketBtn {
+.ticketList .ticketBtn {
   border: 1px solid #222;
   background-color: #fff;
 }
-section .ticketList .ticketBtn:nth-child(3) {
+.ticketList .ticketBtn:nth-child(3) {
   background-color: #222;
   color: #fff;
 }
-section .ticketList .ticketBtn:nth-child(2) {
+.ticketList .ticketBtn:nth-child(2) {
   border-right: none;
   border-left: none;
 }

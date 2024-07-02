@@ -62,7 +62,7 @@ function Notice() {
 
         <ul className={styles.noticeList}>
           <li>
-            <h3 className={styles.listTitle}>※예매 및 관람안내</h3>
+            <h3 className={styles.listTitle}>※ 예매 및 관람안내</h3>
             <p className={styles.listDesc}>
               · 타인에게 관람권을 양도 또는 판매하는 행위는 금지
               <br />
@@ -81,7 +81,7 @@ function Notice() {
             </p>
           </li>
           <li>
-            <h3 className={styles.listTitle}>※예매 취소 안내</h3>
+            <h3 className={styles.listTitle}>※ 예매 취소 안내</h3>
             <p className={styles.listDesc}>
               · 예약 취소 가능기간은 해당 회차 종료 10분전까지입니다.
             </p>
@@ -95,7 +95,7 @@ function Notice() {
             </p>
           </li>
           <li>
-            <h3 className={styles.listTitle}>※입장안내</h3>
+            <h3 className={styles.listTitle}>※ 입장안내</h3>
             <p className={styles.listDesc}>
               · 전시실 앞에 배치 되어있는 QR검표기에 QR관람권을
               <br />
@@ -103,7 +103,7 @@ function Notice() {
             </p>
           </li>
           <li>
-            <h3 className={styles.listTitle}>※환불정책 </h3>
+            <h3 className={styles.listTitle}>※ 환불정책 </h3>
             <p className={styles.listDesc}>
               · 이용회차 입장시간 
               <span className={styles.color}>10분 전까지 취소시 100%</span> 환불

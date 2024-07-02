@@ -2,13 +2,12 @@
   width: 100%;
   text-align: left;
   border-bottom: 2px solid #222;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 .login .title {
   font-family: var(--font-EB);
   font-size: 23px;
   position: relative;
-  padding-left: 40px;
 }
 
 .loginForm {

@@ -1,45 +1,45 @@
-section .exhibition {
+.exhibition {
   border-bottom: 2px solid #222;
   display: flex;
   justify-content: space-between;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
-section .exhibition .title {
+.exhibition .title {
   font-family: var(--font-EB);
   font-size: 23px;
   position: relative;
   padding-left: 40px;
   cursor: pointer;
 }
-section .exhibition .title::before {
+.exhibition .title::before {
   content: "";
   background: url(../assets/images/back.png) no-repeat 50% / contain;
   width: 30px; height: 30px;
   position: absolute;
   top: 0; left: 0;
 }
-section .exhibition .exhibitionIcon {
+.exhibition .exhibitionIcon {
   display: block;
   width: 30px; height: 30px;
 }
-section .exhibition .exhibitionIcon img {
+.exhibition .exhibitionIcon img {
   width: 100%;
 }
-section .exhibitionContainer {
+.exhibitionContainer {
   position: relative;
 }
-section .exhibitionContainer .exhibitionList {
+.exhibitionContainer .exhibitionList {
   position: absolute;
   top: 0; left: 0;
   padding: 20px 0;
 }
-section .exhibitionContainer .exhibitionList li {
+.exhibitionContainer .exhibitionList li {
   padding-left: 5px;
   font-family: var(--font-EB);
   font-size: 14px;
   position: relative;
 }
-section .exhibitionContainer .exhibitionList li::after {
+.exhibitionContainer .exhibitionList li::after {
   content: "";
   background: url(../assets/images/back_small.png) no-repeat 50%;
   width: 15px; height: 15px;

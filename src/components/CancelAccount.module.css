@@ -2,7 +2,7 @@
   width: 100%;
   text-align: left;
   border-bottom: 2px solid #222;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 .delete .title a {
   font-family: var(--font-EB);

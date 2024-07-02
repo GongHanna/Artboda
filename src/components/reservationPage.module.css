@@ -1,21 +1,17 @@
-section {
-  width: 100%;
-  padding-bottom: 20px;
-}
-section .ticket {
+.ticket {
   width: 100%;
   text-align: left;
   border-bottom: 2px solid #222;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
-section .ticket .title a {
+.ticket .title a {
   font-family: var(--font-EB);
   font-size: 23px;
   position: relative;
   padding-left: 40px;
   cursor: pointer;
 }
-section .ticket .title a::before {
+.ticket .title a::before {
   content: "";
   background: url(../assets/images/back.png) no-repeat 50% / contain;
   width: 30px; height: 30px;
@@ -24,7 +20,7 @@ section .ticket .title a::before {
   transform: translateY(-50%);
 }
 
-section .ticketList {
+.ticketList {
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr;
   justify-content: center;
@@ -33,11 +29,11 @@ section .ticketList {
   line-height: 40px;
   margin-top: 23px;
 }
-section .ticketList .ticketBtn {
+.ticketList .ticketBtn {
   border: 1px solid #222;
   background-color: #fff;
 }
-section .ticketList .ticketBtn:nth-child(2) {
+.ticketList .ticketBtn:nth-child(2) {
   background-color: #222;
   color: #fff;
 }
@@ -57,8 +53,11 @@ section .ticketList .ticketBtn:nth-child(2) {
 .ticketIntro .textBox {
   width: max-content;
   font-size: 14px;
-  margin: 18px auto 33px;
+  margin: 18px 0 33px;
   padding-left: 10px;
+}
+.ticketIntro .textBox p {
+  margin-bottom: 10px;
 }
 .ticketIntro .textBox .date span {
   margin-right: 83px;
@@ -102,7 +101,6 @@ section .ticketList .ticketBtn:nth-child(2) {
 }
 .calendarWrapper {
   padding-top: 17px;
-  width: max-content;
   margin: 17px auto 50px;
   position: relative;
 }
@@ -136,7 +134,7 @@ section .ticketList .ticketBtn:nth-child(2) {
   box-shadow:
   0.3px 1.1px 4.4px rgba(0, 0, 0, 0.053),
   1.1px 3.6px 14.7px rgba(0, 0, 0, 0.077),
-  5px 16px 66px rgba(0, 0, 0, 0.13);
+  5px 16px 20px rgba(0, 0, 0, 0.13);
 }
 .calendarWrapper table tr .calendarDate {
   font-size: 16px;

@@ -1,17 +1,17 @@
-section .notice {
+.notice {
   width: 100%;
   text-align: left;
   border-bottom: 2px solid #222;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
-section .notice .title a {
+.notice .title a {
   font-family: var(--font-EB);
   font-size: 23px;
   position: relative;
   padding-left: 40px;
   cursor: pointer;
 }
-section .notice .title a::before {
+.notice .title a::before {
   content: "";
   background: url(../assets/images/back.png) no-repeat 50% / contain;
   width: 30px; height: 30px;

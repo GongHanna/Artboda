@@ -94,60 +94,65 @@ function ReservationPage() {
           <p className={styles.dateTitle}>April 2024</p>
         </div>
         <table>
-          <tr>
-            <th className={styles.calendarDate}>Sun</th>
-            <th className={styles.calendarDate}>Mon</th>
-            <th className={styles.calendarDate}>Tue</th>
-            <th className={styles.calendarDate}>Wed</th>
-            <th className={styles.calendarDate}>Thu</th>
-            <th className={styles.calendarDate}>Fri</th>
-            <th className={styles.calendarDate}>Sat</th>
-          </tr>
-          <tr>
-            <td className={styles.empty}></td>
-            <td className={styles.closeNumber}>1</td>
-            <td className={styles.number}>2</td>
-            <td className={styles.number}>3</td>
-            <td className={styles.number}>4</td>
-            <td className={styles.number}>5</td>
-            <td className={styles.number}>6</td>
-          </tr>
-          <tr>
-            <td className={styles.numer}>7</td>
-            <td className={styles.closeNumber}>8</td>
-            <td className={styles.numer}>9</td>
-            <td className={styles.redNumer}>10</td>
-            <td className={styles.numer}>11</td>
-            <td className={styles.numer}>12</td>
-            <td className={styles.numer}>13</td>
-          </tr>
-          <tr>
-            <td className={styles.numer}>14</td>
-            <td className={styles.closeNumber}>15</td>
-            <td className={styles.numer}>16</td>
-            <td className={styles.numer}>17</td>
-            <td className={styles.numer}>18</td>
-            <td className={styles.numer}>19</td>
-            <td className={styles.clickNumer}>20</td>
-          </tr>
-          <tr>
-            <td className={styles.numer}>21</td>
-            <td className={styles.closeNumber}>22</td>
-            <td className={styles.numer}>23</td>
-            <td className={styles.numer}>24</td>
-            <td className={styles.numer}>25</td>
-            <td className={styles.numer}>26</td>
-            <td className={styles.numer}>27</td>
-          </tr>
-          <tr>
-            <td className={styles.numer}>28</td>
-            <td className={styles.closeNumber}>29</td>
-            <td className={styles.numer}>30</td>
-            <td className={styles.empty}></td>
-            <td className={styles.empty}></td>
-            <td className={styles.empty}></td>
-            <td className={styles.empty}></td>
-          </tr>
+          <thead>
+            <tr>
+              <th className={styles.calendarDate}>Sun</th>
+              <th className={styles.calendarDate}>Mon</th>
+              <th className={styles.calendarDate}>Tue</th>
+              <th className={styles.calendarDate}>Wed</th>
+              <th className={styles.calendarDate}>Thu</th>
+              <th className={styles.calendarDate}>Fri</th>
+              <th className={styles.calendarDate}>Sat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className={styles.empty}></td>
+              <td className={styles.closeNumber}>1</td>
+              <td className={styles.number}>2</td>
+              <td className={styles.number}>3</td>
+              <td className={styles.number}>4</td>
+              <td className={styles.number}>5</td>
+              <td className={styles.number}>6</td>
+            </tr>
+            <tr>
+              <td className={styles.numer}>7</td>
+              <td className={styles.closeNumber}>8</td>
+              <td className={styles.numer}>9</td>
+              <td className={styles.redNumer}>10</td>
+              <td className={styles.numer}>11</td>
+              <td className={styles.numer}>12</td>
+              <td className={styles.numer}>13</td>
+            </tr>
+            <tr>
+              <td className={styles.numer}>14</td>
+              <td className={styles.closeNumber}>15</td>
+              <td className={styles.numer}>16</td>
+              <td className={styles.numer}>17</td>
+              <td className={styles.numer}>18</td>
+              <td className={styles.numer}>19</td>
+              <td className={styles.clickNumer}>20</td>
+            </tr>
+            <tr>
+              <td className={styles.numer}>21</td>
+              <td className={styles.closeNumber}>22</td>
+              <td className={styles.numer}>23</td>
+              <td className={styles.numer}>24</td>
+              <td className={styles.numer}>25</td>
+              <td className={styles.numer}>26</td>
+              <td className={styles.numer}>27</td>
+            </tr>
+            <tr>
+              <td className={styles.numer}>28</td>
+              <td className={styles.closeNumber}>29</td>
+              <td className={styles.numer}>30</td>
+              <td className={styles.empty}></td>
+              <td className={styles.empty}></td>
+              <td className={styles.empty}></td>
+              <td className={styles.empty}></td>
+            </tr>
+          </tbody>
+
         </table>
       </div>
 

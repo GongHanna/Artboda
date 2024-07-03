@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/artboda/static/css/main.4712266a.css",
-    "main.js": "/artboda/static/js/main.c84a15f3.js",
+    "main.css": "/artboda/static/css/main.8cfd6355.css",
+    "main.js": "/artboda/static/js/main.0e395379.js",
     "static/media/AppleSDGothicNeoEB.woff": "/artboda/static/media/AppleSDGothicNeoEB.364b00ea09cf2c540ba9.woff",
     "static/media/AppleSDGothicNeoR.woff": "/artboda/static/media/AppleSDGothicNeoR.3fa7eed2d16d2eb546c9.woff",
     "static/media/details02.png": "/artboda/static/media/details02.89dbd22700a642145737.png",
@@ -21,11 +21,11 @@
     "static/media/home-img1.png": "/artboda/static/media/home-img1.59aa27ffb556ed7ed57f.png",
     "static/media/profile.png": "/artboda/static/media/profile.3f5cf08378b1e0c23667.png",
     "index.html": "/artboda/index.html",
-    "main.4712266a.css.map": "/artboda/static/css/main.4712266a.css.map",
-    "main.c84a15f3.js.map": "/artboda/static/js/main.c84a15f3.js.map"
+    "main.8cfd6355.css.map": "/artboda/static/css/main.8cfd6355.css.map",
+    "main.0e395379.js.map": "/artboda/static/js/main.0e395379.js.map"
   },
   "entrypoints": [
-    "static/css/main.4712266a.css",
-    "static/js/main.c84a15f3.js"
+    "static/css/main.8cfd6355.css",
+    "static/js/main.0e395379.js"
   ]
 }
